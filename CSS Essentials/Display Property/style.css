@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    background-color: rgb(195, 239, 151);
+    border: 2px solid blue;
+    display: inline-block;
+    margin: 20px;
+    padding: 30px;
+} 
+
+.box2 {
+    background-color: antiquewhite;
+    border: 2px solid black;
+    display: inline;
+    margin: 20px;
+    padding: 40px;
+}
+
+.span-class1 {
+    background-color: aqua;
+    border: 2px solid gray;
+    display: inline-block;
+    margin: 20px;
+    padding: 40px;
+}
+
+.span-class2 {
+    background-color: aquamarine;
+    border: 2px solid chocolate;
+    display: block;
+    margin: 20px;
+    padding: 40px;
+}
+
+/* display none and Visibility: hidden properties , both are similar but none removes the space from the document and visibility remaines the space as it is. */
+/* .box1{
+    visibility: hidden;
+    display: none;
+} */
