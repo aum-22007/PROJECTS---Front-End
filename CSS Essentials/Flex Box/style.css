@@ -23,7 +23,7 @@ body {
     align-items: center;
     /* flex-wrap:nowrap; */
     flex-wrap: wrap;
-    align-content: center;
+    /* align-content: center; */
     /* gap: 20px 10px; */
 }
 
@@ -45,4 +45,5 @@ body {
 .item2 {
     /* flex-grow:2; */
     /* flex-shrink: 2; */
+    /* align-self:flex-end; */
 }
