@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+}
+div{
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+.box3{
+    margin:20px;
+    padding:30px;
+    border-left: 4px solid blue;
+}
+.box2{
+    margin:20px;
+    padding:30px;
+    border-left: 4px solid blue;
+}
+.box1{
+    margin:20px;
+    padding:30px;
+    border-left: 4px solid blue;
+}
