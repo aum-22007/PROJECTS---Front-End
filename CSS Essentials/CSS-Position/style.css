@@ -1,0 +1,130 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.div1{
+    margin: 20px;
+}
+.section1{
+    display: flex;
+}
+.box1{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+.box2{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(221, 221, 255);
+    position: static;
+    top: 20px;  
+    /* nothing changes beackuse it is static */
+}
+.box3{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+
+
+
+.section2{
+    display: flex;
+}
+.div2{
+    margin: 20px;
+}
+.box4{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+.box5{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(221, 221, 255);
+    position: relative;
+    top: 30px;
+    left: 20px
+    /* in relative it change in nornal flow; */
+}
+.box6{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+
+
+
+
+.section3{
+    display: flex;
+    /* position: relative; */
+}
+.div3{
+    margin: 20px;
+}
+.box7{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+.box8{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(221, 221, 255);
+    position: absolute;
+    top:500px;
+    left: 350px;
+    /* in absolute it changes throught its nearest ancestor */
+}
+.box9{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+
+
+
+.section4{
+    display: flex;
+}
+p{
+    display: inline;
+}
+.div4{
+    margin: 20px;
+}
+.box10{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+.box11{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(221, 221, 255);
+    position: fixed;
+    top:0px;
+}
+.box12{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
