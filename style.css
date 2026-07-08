@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, rgb(255, 0, 0), rgb(241, 66, 66));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    flex-direction: column;
+    /* border: 3px solid black; */
+    border-radius: 26px;
+    background-color: #fff;
+}
+
+img {
+    width: 20rem;
+    margin-bottom: 200px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 10px;
+}
+.img:hover{
+    rotate: 30deg;
+    transition: 0.9s ease-in-out;
+}
+/* .img::after:hover{
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+} */
+
+.btn:hover{
+    transition: ;
+}
+
+span {
+    color: rgb(255, 80, 80);
+}
+
+.title {
+    font-size: xx-large;
+    margin-top: -70px;
+    margin-left: -150px;
+}
+
+.desc {
+    font-size: 17px;
+    margin-top: -10px;
+    padding: 2px;
+}
+
+button {
+    padding: 12px;
+    border-radius: 16px;
+    border: none;
+    font-size: large;
+    width: 150px;
+    color: #fff;
+    background: linear-gradient(135deg, rgb(255, 0, 0), rgb(241, 66, 66));
+    /* transform: ; */
+}
+
+.btn {
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.btn:hover {
+  transform: translateY(-3px);
+}
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}   
